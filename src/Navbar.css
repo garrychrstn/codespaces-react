@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.App-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.App-header h1{
+    color: #ff5f5f;
+}
+.App-header p {
+    size: 25px;
+    font-weight: bold;
+    padding: 15px;
+    color: white;
+    background: #55AD9B;
+    border-radius: 12px;
+}

@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Navbar from './Navbar';
+import Hero from './Hero';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className='container' style={{width:'75%', margin: 'auto'}}>
+      <Navbar />
+      <br />
+      <br />
+      <br />
+      <Hero />
+    </div>
   </React.StrictMode>
 );
 
